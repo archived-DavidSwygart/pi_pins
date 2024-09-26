@@ -9,3 +9,6 @@ timedatectl set-time "$1 $2"
 sleep .1
 echo "turning on NTP"
 timedatectl set-ntp yes
+
+echo "time is now $(date)"
+
